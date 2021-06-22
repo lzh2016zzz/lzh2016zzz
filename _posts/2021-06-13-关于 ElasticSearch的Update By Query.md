@@ -1,8 +1,8 @@
-
 ---
 title: 关于 ElasticSearch的Update By Query
 tags: 技术,elasticsearch
 ---
+
 ## 如何使用
 Elasticsearch的`_update_by_query`操作允许elasticserch根据查询的结果批量获取文档,并通过脚本操作对这些文档进行更新.可以把它看成批量获取文档 + 批量更新的结合.
 

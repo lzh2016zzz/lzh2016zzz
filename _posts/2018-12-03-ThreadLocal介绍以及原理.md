@@ -1,8 +1,8 @@
-
 ---
 title: ThreadLocal介绍以及原理
 tags: java,技术
 ---
+
 
 ### 先看 <<JAVA并发编程实战>>中对`ThreadLocal`的定义:
 

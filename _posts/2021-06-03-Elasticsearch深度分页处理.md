@@ -1,8 +1,8 @@
-
 ---
 title: Elasticsearch深度分页处理
 tags: 技术,elasticsearch
 ---
+
 从es拉取数据时,如果我们想要查询前10条数据.正常流程是:
 
 1. 客户端发送请求给某个节点

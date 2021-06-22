@@ -1,8 +1,8 @@
-
 ---
 title: centos防火墙firewalld常用命令速查
 tags: linux,速查
 ---
+
 
 记录一下Centos&RedHat中对firewalld的常用操作命令.以备不时之需.
 

@@ -1,8 +1,8 @@
-
 ---
 title: redis异常:ERR bad lua script for redis cluster
 tags: 经验,redis,速查
 ---
+
 当我使用redissonClient.getMapCache(),执行put操作时,会抛出一个异常:
 
 *ERR bad lua script for redis cluster, all the keys that the script uses should be passed using the KEYS array, and KEYS should not be in expression. channel: [id: 0xe15ab90b, L:/xx.xx.xxx:38542 - R:xxx.redis.rds.aliyuncs.com/xx.xx.xxxx:6379*

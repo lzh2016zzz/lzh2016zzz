@@ -1,8 +1,8 @@
-
 ---
 title: 在linux下配置swap分区
 tags: 经验,读书笔记,linux
 ---
+
 
 #### 如何在linux下配置swap分区
 

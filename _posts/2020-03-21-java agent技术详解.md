@@ -1,8 +1,8 @@
-
 ---
 title: java agent技术详解
 tags: java,spring,技术,java agent
 ---
+
 
 `JDK1.5`开始，`Java`新增了`Instrumentation(Java Agent API)`和`JVMTI(JVM Tool Interface)`功能，允许`JVM`在加载某个`class文件`之前对其字节码进行修改，同时也支持对已加载的`class(类字节码)`进行重新加载(`Retransform`)。
 
