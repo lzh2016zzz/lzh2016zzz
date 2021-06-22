@@ -1,6 +1,8 @@
 ---
 title: centos防火墙firewalld常用命令速查
-tags: linux,速查
+tags: 
+   - linux
+   - 速查
 ---
 
 

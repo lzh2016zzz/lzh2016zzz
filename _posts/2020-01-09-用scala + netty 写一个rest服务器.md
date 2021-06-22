@@ -1,6 +1,8 @@
 ---
 title: 用scala + netty 写一个rest服务器
-tags: java,技术
+tags: 
+   - java
+   - 技术
 ---
 
 

@@ -1,6 +1,9 @@
 ---
 title: Spring Cloud 使用Nacos作为配置中心
-tags: spring,nacos,spring cloud
+tags: 
+   - spring
+   - nacos
+   - spring cloud
 ---
 
 

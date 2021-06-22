@@ -1,6 +1,8 @@
 ---
 title: ThreadLocal介绍以及原理
-tags: java,技术
+tags: 
+   - java
+   - 技术
 ---
 
 

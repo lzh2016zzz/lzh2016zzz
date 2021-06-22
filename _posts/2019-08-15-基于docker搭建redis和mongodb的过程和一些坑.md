@@ -1,6 +1,9 @@
 ---
 title: 基于docker搭建redis和mongodb的过程和一些坑
-tags: docker,redis,mongo
+tags: 
+   - docker
+   - redis
+   - mongo
 ---
 
 

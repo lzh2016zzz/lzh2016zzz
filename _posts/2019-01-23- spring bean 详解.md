@@ -1,6 +1,8 @@
 ---
 title:  spring bean 详解
-tags: spring,读书笔记
+tags: 
+   - spring
+   - 读书笔记
 ---
 
 

@@ -1,6 +1,8 @@
 ---
 title: Spring Cloud 选择合适的注册中心
-tags: spring,spring cloud
+tags: 
+   - spring
+   - spring cloud
 ---
 
 

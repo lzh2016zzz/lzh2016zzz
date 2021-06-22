@@ -1,6 +1,7 @@
 ---
 title: Elasticsearch安装
-tags: elasticsearch
+tags: 
+  elasticsearch
 ---
 
 

@@ -1,6 +1,9 @@
 ---
 title: redis异常:ERR bad lua script for redis cluster
-tags: 经验,redis,速查
+tags: 
+   - 经验
+   - redis
+   - 速查
 ---
 
 当我使用redissonClient.getMapCache(),执行put操作时,会抛出一个异常:

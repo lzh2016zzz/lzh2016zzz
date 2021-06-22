@@ -1,6 +1,8 @@
 ---
 title: interface 'xx' is not visible from ClassLoader
-tags: java,经验
+tags: 
+   - java
+   - 经验
 ---
 
 ## interface 'xx' is not visible from ClassLoader问题处理

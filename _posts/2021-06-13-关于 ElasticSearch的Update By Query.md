@@ -1,6 +1,8 @@
 ---
 title: 关于 ElasticSearch的Update By Query
-tags: 技术,elasticsearch
+tags: 
+   - 技术
+   - elasticsearch
 ---
 
 ## 如何使用

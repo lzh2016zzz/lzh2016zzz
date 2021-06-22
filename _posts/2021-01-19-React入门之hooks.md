@@ -1,6 +1,8 @@
 ---
 title: React入门之hooks
-tags: 读书笔记,react
+tags: 
+   - 读书笔记
+   - react
 ---
 
 React 是主流的前端框架，v16.8 版本引入了全新的 API，叫做 React Hooks，颠覆了以前的用法。这个 API 是 React 的未来，有必要深入理解。本文谈谈我的理解，简单介绍它的用法，帮助大家快速上手。

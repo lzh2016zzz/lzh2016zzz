@@ -1,6 +1,8 @@
 ---
 title: SpringCloud如何透传HttpHeader
-tags: spring,spring cloud
+tags: 
+   - spring
+   - spring cloud
 ---
 
 

@@ -1,6 +1,10 @@
 ---
 title: java agent技术详解
-tags: java,spring,技术,java agent
+tags: 
+   - java
+   - spring
+   - 技术
+   - java agent
 ---
 
 
