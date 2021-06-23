@@ -208,3 +208,6 @@ GET twitter/_settings?flat_settings=true
 POST /twitter/_search?size=surprise_me&error_trace=true
 ```
 
+## 查询的请求体
+除了POST请求外，其他的请求不支持请求体,这个时候如果要执行查询，可以把参数放在Url后面.
+
