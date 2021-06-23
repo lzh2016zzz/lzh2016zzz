@@ -68,9 +68,9 @@ ctx._source['member_relationships'] = params['relationship'];
 通过设置`maxRetries`可以在失败时自动重试:
 
 ```java
-	UpdateByQueryRequest updateByQueryRequest = new UpdateByQueryRequest(index);
-    //默认重试次数是11次,可见对elasticsearch来说有一定压力
-	updateByQueryRequest.setMaxRetries(20);
+UpdateByQueryRequest updateByQueryRequest = new UpdateByQueryRequest(index);
+//默认重试次数是11次,可见对elasticsearch来说有一定压力
+updateByQueryRequest.setMaxRetries(20);
 ```
 
 也可以设置`refresh = true`,这个设置使得在调用`_update_by_query`后刷新索引,从而避免后续请求读到旧数据导致版本冲突:
@@ -96,7 +96,10 @@ updateByQueryRequest.setRefresh(true);
 ```java
 updateByQueryRequest.setRequestsPerSecond(100);
 ```
-这个设置很重要,经过实测,仅仅每秒100+文档更新就会导致elasticsearch集群CPU占用率飙升(配置 : refresh = true,maxRetries = 20):
+这个设置很重要,经过实测,仅仅每秒100+文档更新就会导致elasticsearch集群CPU占用率飙升(配置 : refresh = true,maxRetries = 20,集群cpu使用率/每秒更新数(5节点/32G/8核)):
+
+
+
 
 ```chart
 {

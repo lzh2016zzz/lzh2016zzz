@@ -16,7 +16,7 @@ Elasticsearch: 权威指南,基于2.X版本: [https://www.elastic.co/guide/cn/el
 
 官方的guide : [https://www.elastic.co/guide/index.html](https://www.elastic.co/guide/index.html)
 
-官方社区: https://discuss.elastic.co
+官方社区: [https://discuss.elastic.co](https://discuss.elastic.co)
 
 
 目前es技术栈中绝大部分第一手资料都来自英文社区.中文资料都是从英语翻译过来的二手信息,准确性和完整性都要大打折扣.建议直接看官方的guide.
