@@ -28,7 +28,7 @@ GET /my_index/_search
 
 ```
 
-上面的请求体中,`query`定义了一个查询,`match_all`定义了搜索条件,表示查询所有内容,`from`和`size`等价SQL中的`limit`和`offset`,上面的命令请求了索引里的第40~60条的文档.
+`query`定义了一个查询,`match_all`定义了搜索条件,表示查询所有内容,`from`和`size`等价SQL中的`limit`和`offset`,上面的命令请求了索引里的第40~60条的文档.
 
 这种方式会把查询条件放入request-body中,特点是易于理解,支持更加复杂的查询逻辑.实际业务中,大部分情况下会使用这种方式.
 
