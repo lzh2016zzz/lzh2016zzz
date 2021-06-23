@@ -28,7 +28,7 @@ GET /my_index/_search
 
 ```
 
-`query`定义了一个查询,`match_all`定义了搜索条件,表示查询所有内容,`from`和`size`等价SQL中的`limit`和`offset`,上面的命令请求了索引里的第40~60条的文档.
+上面的请求体中,`query`定义了一个查询,`match_all`定义了搜索条件,表示查询所有内容,`from`和`size`等价SQL中的`limit`和`offset`,上面的命令请求了索引里的第40~60条的文档.
 
 这种方式会把查询条件放入request-body中,特点是易于理解,支持更加复杂的查询逻辑.实际业务中,大部分情况下会使用这种方式.
 
@@ -92,7 +92,7 @@ GET /my_index/_search
 ## Query DSL
 Elasticsearch提供了基于JSON的DSL（域特定语言）来定义查询.
 
-分页查询第20-40条数据:
+查询第20-40条数据:
 ```json
 GET /my_index/_search
 {
@@ -164,7 +164,7 @@ GET member_info/_search
 
 修改bool参数为should,可以改为查询包含mill或者lane的文档：
 
-```json
+```
 GET member_info/_search
 {
   "query": {
