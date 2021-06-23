@@ -18,6 +18,9 @@ tags:
 
 ![](https://gitee.com/minagamiyuki/picgo-gitee/raw/master/images/92126769-26ce0480-ee33-11ea-8130-cd7ea23ac79e.png)
 
+
+<!--more-->
+
 ## 原因
 
 默认阿里云Redis会对lua脚本做一定限制，目的是为了保证脚本里面的所有操作都在相同slot进行，如果用户能够在代码确保所有操作都在相同slot而又想打破Redis集群的lua限制的话可以通过控制台修改script_check_enable参数为0，则后端不会对脚本进行校验。

@@ -30,7 +30,7 @@ POST member_info/_update_by_query
 ```
 
 上面会先查出fid = 3388的所有文档,对这些文档分别执行脚本更新.
-
+<!--more-->
 也可以稍微复杂点:
 
 ```json
@@ -98,7 +98,54 @@ updateByQueryRequest.setRequestsPerSecond(100);
 ```
 这个设置很重要,经过实测,仅仅每秒100+文档更新就会导致elasticsearch集群CPU占用率飙升(配置 : refresh = true,maxRetries = 20):
 
-![](https://gitee.com/minagamiyuki/picgo-gitee/raw/master/images/Unknown.png)
+```chart
+{
+  "type": "line",
+  "data": {
+    "labels": [
+      "10",
+      "100",
+      "200",
+      "300",
+      "400",
+      "500"
+    ],
+    "datasets": [
+      {
+        "label": "# 每秒请求数",
+        "fill": false,
+        "lineTension": 0.1,
+        "backgroundColor": "rgba(75,192,192,0.4)",
+        "borderColor": "rgba(75,192,192,1)",
+        "borderCapStyle": "butt",
+        "borderDash": [],
+        "borderDashOffset": 0,
+        "borderJoinStyle": "miter",
+        "pointBorderColor": "rgba(75,192,192,1)",
+        "pointBackgroundColor": "#fff",
+        "pointBorderWidth": 1,
+        "pointHoverRadius": 5,
+        "pointHoverBackgroundColor": "rgba(75,192,192,1)",
+        "pointHoverBorderColor": "rgba(220,220,220,1)",
+        "pointHoverBorderWidth": 2,
+        "pointRadius": 1,
+        "pointHitRadius": 10,
+        "data": [
+          7,
+          35,
+          70,
+          90,
+          99,
+          99,
+          99
+        ],
+        "spanGaps": false
+      }
+    ]
+  },
+  "options": {}
+}
+```
 
 
 通过在程序上增加缓冲区,将在一段时间内对同一类文档的多个修改请求合并,可以减少请求次数,降低出现冲突的频率.

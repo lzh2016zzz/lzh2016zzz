@@ -17,6 +17,8 @@ yarn add umi-request
 npm install --save umi-request
 ```
 
+<!--more-->
+
 ## 编写request.ts
 
 ```typescript

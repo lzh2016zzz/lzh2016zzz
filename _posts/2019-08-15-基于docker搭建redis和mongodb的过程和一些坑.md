@@ -13,6 +13,8 @@ tags:
 
 
 
+<!--more-->
+
 ## docker搭建redis
 
 ```bash

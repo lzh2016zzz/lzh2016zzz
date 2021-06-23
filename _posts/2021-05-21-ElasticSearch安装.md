@@ -7,6 +7,10 @@ tags:
 
 安装的版本是elasticsearch6.7.2,在安装之前需要先确认JDK版本大于1.8
 
+
+
+<!--more-->
+
 ## 检查jdk版本
 
 ```bash

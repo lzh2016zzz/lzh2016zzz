@@ -5,8 +5,6 @@ tags:
    - 经验
 ---
 
-## interface 'xx' is not visible from ClassLoader问题处理
-
 
 之前的代码里,在factoryBean中使用如下方式创建代理对象:
 
@@ -34,6 +32,8 @@ tags:
                 });
 ```
 
+
+<!--more-->
 
 ## 原因分析
 

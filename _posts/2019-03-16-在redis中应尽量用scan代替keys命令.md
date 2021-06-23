@@ -23,6 +23,8 @@ tags:
 
 所以,redis在2.8版本推出了`SCAN`命令.可以用于增量的迭代redis内的元素.
 
+
+<!--more-->
 #### 关于Redis的SCAN命令
 
 **SCAN cursor [MATCH pattern] [COUNT count]**

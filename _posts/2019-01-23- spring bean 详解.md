@@ -12,6 +12,10 @@ Spring bean是由spring容器管理的对象.Spring 容器会自动完成bean对
 
 这也是IOC的本质,由容器来管理对象的生命周期.
 
+
+
+<!--more-->
+
 ## bean的实例化过程&&生命周期
 
 bean的实例化过程如下图:

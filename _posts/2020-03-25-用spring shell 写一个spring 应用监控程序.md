@@ -14,6 +14,8 @@ tags:
 我们可以通过引入Spring Shell jar并添加自定义命令(作为spring bean上的方法)轻松构建一个功能齐全的命令行应用程序.
 
 
+
+<!--more-->
 ## Spring shell特性
 
 Spring Shell的功能包括：
