@@ -88,12 +88,22 @@ CONTAINER ID   IMAGE                                    COMMAND                 
 
 docker服务启动成功以后,就可以开始安装elasticsearch了
 
-安装elasticsearch,并将容器9200端口映射到宿主机上:
+### 安装elasticsearch
 
+用如下命令启动,容器将映射到宿主机的9200端口
+
+6.x版本:
 ```bash
 docker run -d --name elasticsearch  \
-          elasticsearch:6.7.2 \
-          -p 127.0.0.1:9200:9200/tcp
+          -p 127.0.0.1:9200:9200/tcp\
+          elasticsearch:6.7.2 
 ```
 
+7.x版本:
+```
+docker run -d --name elasticsearch  \
+          -e "discovery.type=single-node" \
+          -p 127.0.0.1:9200:9200/tcp\
+          elasticsearch:7.13.2 
+```
 
