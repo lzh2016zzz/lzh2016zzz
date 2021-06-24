@@ -3,7 +3,7 @@ tags:
   elasticsearch
 ---
 
-本篇翻译的是elasticsearch7.0版本官方文档的通用配置.对使用elasticsearch是非常有帮助的.且以下配置适用于所有的Rest API
+本篇翻译的是elasticsearch7.0版本官方文档的通用配置.以下配置适用于所有的Rest API,对使用elasticsearch是很有帮助的
 
 原文 : [https://www.elastic.co/guide/en/elasticsearch/reference/7.0/common-options.html](https://www.elastic.co/guide/en/elasticsearch/reference/7.0/common-options.html)
 
