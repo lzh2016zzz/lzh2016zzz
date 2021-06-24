@@ -5,8 +5,6 @@ tags:
 
 本篇翻译的是elasticsearch7.0版本官方文档的通用配置.以下配置可以用于优化对elasticsearch的请求,且适用于所有的Rest API,这对使用elasticsearch是很有帮助的
 
-原文 : [https://www.elastic.co/guide/en/elasticsearch/reference/7.0/common-options.html](https://www.elastic.co/guide/en/elasticsearch/reference/7.0/common-options.html)
-
 <!--more-->
 
 # 通用配置
@@ -70,7 +68,7 @@ tags:
 GET /_search?q=elasticsearch&filter_path=took,hits.hits._id
 ```
 返回值:
-```js
+```json
 {
   "took" : 3,
   "hits" : {
@@ -211,3 +209,7 @@ POST /twitter/_search?size=surprise_me&error_trace=true
 ## 查询的请求体
 除了POST请求外，其他的请求不支持请求体,这个时候如果要执行查询，可以把参数放在Url后面.
 
+
+## 参考资料
+
+原文 : [https://www.elastic.co/guide/en/elasticsearch/reference/7.0/common-options.html](https://www.elastic.co/guide/en/elasticsearch/reference/7.0/common-options.html)
