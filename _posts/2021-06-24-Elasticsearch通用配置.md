@@ -62,7 +62,7 @@ tags:
 
 ## 定制需要的返回结果
 
-有时候我们不需要返回所有的项目,因为这样会浪费一定的服务器资源和网络开销.所有的api都支持通过`filter_path`参数用来定制返回结果.需要定制多个参数时用`,`隔开
+有时候我们不需要返回所有的项目,因为这样会浪费一定的服务器资源和带宽.所有的api都支持通过`filter_path`参数用来定制返回结果.需要定制多个参数时用`,`隔开
 
 举个例子,如果我们只希望返回`took`,`hits.hits`,`hits._id`,可以像下面这样:
 
@@ -94,7 +94,7 @@ GET /_cluster/state?filter_path=metadata.indices.*.stat*
 ```console
 GET /_cluster/state?filter_path=routing_table.indices.**.state
 ```
-使用逻辑和`spring mvc`的`**`匹配多级package路径基本保持一致
+逻辑和`spring mvc`的`**`基本一致
 
 ## 扁平化
 
