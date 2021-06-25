@@ -11,7 +11,7 @@ tags:
 
 以下配置适用于所有的Rest API
 
-## 返回值格式化
+## 格式化
 
 在任何请求后附加query参数`pretty=true`时，返回的JSON将被格式化,具有更好的可读性.另外还可以设置`format=yaml`,这样结果将以yml格式返回.
 
