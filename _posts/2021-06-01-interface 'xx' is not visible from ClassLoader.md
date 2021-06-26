@@ -2,7 +2,7 @@
 title: interface 'xx' is not visible from ClassLoader
 tags: 
    - java
-   - 经验
+   - bug排查
 article_header:
   type: overlay
   theme: dark
@@ -13,7 +13,10 @@ article_header:
 ---
 
 
-之前的代码里,在factoryBean中使用如下方式创建代理对象:
+之前的代码里,在factoryBean中使用如下方式创建代理对象,导致出现`interface 'xx' is not visible from ClassLoader`异常
+
+<!--more-->
+## 问题代码
 
 ```java
 @SuppressWarnings("unchecked")
@@ -37,8 +40,6 @@ Proxy.newProxyInstance(
 });
 ```
 
-
-<!--more-->
 
 ## 原因分析
 

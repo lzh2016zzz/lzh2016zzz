@@ -10,6 +10,10 @@ article_header:
     src: /assets/images/cover1.jpg
 ---
 
+记录了学习elasticsearch过程中使用的资料书籍
+
+<!--more-->
+
 ## Elasticsearch中文参考资料
 
 Elasticsearch: 权威指南,基于2.X版本: [https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)

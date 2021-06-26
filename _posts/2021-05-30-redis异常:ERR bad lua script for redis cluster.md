@@ -1,7 +1,7 @@
 ---
 title: redis异常:ERR bad lua script for redis cluster
 tags: 
-   - 经验
+   - bug排查
    - redis
    - 速查
 article_header:

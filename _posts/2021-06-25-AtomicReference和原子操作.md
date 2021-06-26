@@ -10,9 +10,9 @@ article_header:
     src: /assets/images/cover6.jpg
 ---
 
-`AtomicReference`类提供了一个可以将普通对象包装为原子对象的工具,它可以保证你修改对象的操作具有原子性.
+`AtomicReference`类提供了一个可以将普通对象包装为原子对象的工具.
 
-原子性意味着在多个线程同时更新一个`AtomicReference<T>`引用的对象时可以保证线程安全.
+原子对象意味着在多个线程同时修改一个`AtomicReference<T>`引用的对象时可以保证线程安全.
 
 <!--more-->
 
