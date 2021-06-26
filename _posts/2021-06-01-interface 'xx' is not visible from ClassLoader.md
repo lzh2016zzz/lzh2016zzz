@@ -9,27 +9,25 @@ tags:
 之前的代码里,在factoryBean中使用如下方式创建代理对象:
 
 ```java
-        @SuppressWarnings("unchecked")
-	@Override
-	public T getObject() throws Exception {
-
-		return (T) Proxy.newProxyInstance(
-                        this.getClass().getClassLoader(),//错误的方式
-                        new Class[] { serviceClientInterface },
-                        new ServiceProxy<>(interfaceConfig, methodConfigs));
-
-	}
+@SuppressWarnings("unchecked")
+@Override
+public T getObject() throws Exception {
+	return (T) Proxy.newProxyInstance(
+      this.getClass().getClassLoader(),//错误的方式
+      new Class[] { serviceClientInterface },
+      new ServiceProxy<>(interfaceConfig, methodConfigs));
+ }
 ```
 
 如果是web应用程序，那么在创建动态代理时应该使用web应用程序类加载器.类似这样的:
 
 ```java
-                Proxy.newProxyInstance(
-                  ClassLoader.getSystemClassLoader(),
-                  new Class < ? >[] {MyInterface.class},
-                  new InvocationHandler() {
-                    // (...)
-                });
+Proxy.newProxyInstance(
+  ClassLoader.getSystemClassLoader(),
+  new Class < ? >[] {MyInterface.class},
+  new InvocationHandler() {
+    // (...)
+});
 ```
 
 
