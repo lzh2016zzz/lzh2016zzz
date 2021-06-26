@@ -1,6 +1,13 @@
 ---
 tags: 
   elasticsearch
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /assets/images/cover6.jpg
 ---
 
 es支持两种查询方式,`请求体查询` 和 `query参数查询`.同时指定两种查询方式时,只有query参数查询生效.
