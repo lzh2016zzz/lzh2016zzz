@@ -22,7 +22,7 @@ echo $JAVA_HOME
 
 ## 下载文件
 
-在[https://www.elastic.co/cn/downloads/past-releases/elasticsearch-6-7-2](https://www.elastic.co/cn/downloads/past-releases/elasticsearch-6-7-2)下载安装es6.7版本
+在官网下载安装es6.7版本[前往下载](https://www.elastic.co/cn/downloads/past-releases/elasticsearch-6-7-2){:.button.button--success.button--pill}
 
 ## 启动
 
@@ -68,7 +68,8 @@ cd elasticsearch/bin
 
 ### 安装docker
 
-macOS/Windows可以在官网下载docker-desktop安装包: [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+macOS/Windows可以在官网下载docker-desktop安装包: [下载](https://www.docker.com/products/docker-desktop){:.button.button--success.button--pill}
+
 
 macOS可以通过homebrew命令行安装docker:
 

@@ -3,9 +3,15 @@ title: 关于 ElasticSearch的Update By Query
 tags: 
    - 技术
    - elasticsearch
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /assets/images/cover3.jpg
 ---
 
-## 如何使用
 Elasticsearch的`_update_by_query`操作允许elasticserch根据查询的结果批量获取文档,并通过脚本操作对这些文档进行更新.可以把它看成批量获取文档 + 批量更新的结合.
 
 和`update`操作不同,`_update_by_query`不是原子操作,所有更新和查询失败都会导致`_update_by_query`操作中止.已经执行成功的更新操作仍然存在,不会被回滚.

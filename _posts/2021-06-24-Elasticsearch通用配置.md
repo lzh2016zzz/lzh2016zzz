@@ -1,6 +1,13 @@
 ---
 tags: 
   elasticsearch
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /assets/images/cover5.jpg
 ---
 
 本篇翻译的是elasticsearch7.0版本官方文档的通用配置.以下配置可以用于优化对elasticsearch的请求,且适用于所有的Rest API,这对使用elasticsearch是很有帮助的
