@@ -74,7 +74,7 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 
 把淘汰阈值改小并不能解决问题.首先很难确定一个够用的阈值,阈值设置的太小会导致频繁触发淘汰,设置的太大那么跟没设置一样.
 
-解决方法来自之前了解的`memcached`原理.使用软引用就行了.
+解决方法来自之前了解的`memcached`原理,java引用类型相关的知识:
 
 ### Java的引用类型
 
