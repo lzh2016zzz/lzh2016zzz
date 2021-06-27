@@ -64,13 +64,14 @@ VisualVM是Java自带的监控工具.有诸多强大的功能,其中一个很重
 	}
 ```
 
-这行代码构建了一个Guava缓存,它接收一个size参数,当缓存内的key数量大于size时,则会触发淘汰策略(LRU),删除使用最少的key:
+这行代码构建了一个Guava缓存,它接收一个size参数,当缓存内的key数量大于size时,则会触发淘汰策略(LRU),删除使用最少的key.
+
+经过排查,size设置的太大是导致问题的直接原因,这导致key的数量还没来得及增长到触发淘汰策略就已经报内存不足了:
 
 ```java
 CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSize);
 ```
 
-经过排查,size设置的太大是导致问题的直接原因,这导致key的数量还没来得及增长到触发对象回收就已经报内存不足了.
 
 把淘汰阈值改小并不能解决问题.首先很难确定一个够用的阈值,阈值设置的太小会导致频繁触发淘汰,设置的太大那么跟没设置一样.
 
