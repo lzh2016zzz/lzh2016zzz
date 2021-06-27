@@ -64,16 +64,18 @@ VisualVM是Java自带的监控工具.有诸多强大的功能,其中一个很重
 	}
 ```
 
-这行代码构建了一个Guava缓存,也是问题的罪魁祸首:
+这行代码构建了一个Guava缓存,它接收一个size参数,当缓存内的key数量大于size时,则会触发淘汰策略(LRU),删除使用最少的key:
 
 ```java
 CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSize);
 ```
 
-经过排查,触发淘汰(LRU)的阈值设置太高是导致问题的直接原因,这导致还没来得及触发对象回收就已经OOM了.
+经过排查,size设置的太大是导致问题的直接原因,这导致key的数量还没来得及增长到触发对象回收就已经报内存不足了.
 
-但是,有其他办法可以避免这个问题.默认情况下,Guava Cache使用**强引用**存储Key和Value.如果一个对象具有强引用,那么VM宁可抛出OOM异常,也不会回收它.
+把淘汰阈值改小并不能解决问题.很难确定一个够用的阈值,阈值设置的太小会导致频繁触发淘汰,设置的太大那么跟没设置一样.
 
+
+解决方法来自之前了解过的`memcached`原理.使用软引用就行了.
 
 ### Java的引用类型
 
@@ -86,15 +88,13 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 - 虚引用: 对对象的生命周期没有影响.但可以在对象被回收时得到一个通知.
 
 
-
-显然,缓存不适合用强引用作为存储.Guava Cache 支持将key和value设置成软引用.这样当内存不足时就会优先回收这部分对象:
+默认情况下,Guava Cache使用**强引用**存储Key和Value.也支持软引用.将缓存的key/value改为软引用,问题就解决了:
 
 ```java
 CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().softValues().softValues().maximumSize(maxSize);
 ```
 
-这样问题就解决了.不再出现OOM的情况.
-
+所以说多读些书,多了解些原理还是很有好处的.这样遇到一些没有头绪的问题的时候就能触类旁通.
 
 
 复习一下本地缓存和分布式缓存的区别:
