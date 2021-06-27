@@ -104,7 +104,7 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().softValues().soft
 
 * 适用于数据量较小但是访问频次高的数据
 
-分布式缓存由独立的集群支撑,支持大数据存储,具备高可用,高性能,以及读写分离等优秀特性
+分布式缓存由独立部署的集群支撑,支持大数据存储,具备高可用,高性能,以及读写分离等优秀特性
 
 * 适用于绝大部分场景
 
