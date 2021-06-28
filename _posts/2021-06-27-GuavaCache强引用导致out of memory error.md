@@ -83,7 +83,7 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 
 - 强引用: 最常见的引用.如果一个对象具有强引用，那垃圾回收器绝不会回收它.
 
-- 软引用: 在即将触发OOM时,GC会尝试回收这类对象.之后如果内存还不够则抛出OOM异常.
+- 软引用: 在内存不足时,GC会尝试回收这类对象.之后如果内存还不够则抛出OOM异常.
 
 - 弱引用: 每次触发GC时都会被回收.
 
@@ -93,11 +93,12 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 这样修改:
 
 ```java
-CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().softValues().softValues().maximumSize(maxSize);
+CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().softValues().maximumSize(maxSize);
 ```
 
 所以说多读些书,多了解些原理还是很有好处的.这样遇到一些没有头绪的问题的时候就能触类旁通.
 
+另外业务设计上也有些问题.像这样庞大的对象不应该放在guava的本地缓存里.应该放在分布式缓存(redis)中.
 
 复习一下本地缓存和分布式缓存的区别:
 
