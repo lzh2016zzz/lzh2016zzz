@@ -34,7 +34,7 @@ VM监控表现: 服务器负载不高的情况下,老年代内存短时间内直
 
 VisualVM是Java自带的监控工具.有诸多强大的功能,其中一个很重要的功能是用于分析JVM内存快照:
 
-### 查看占用内存最多的对象
+## 查看占用内存最多的对象
 
 * 打开hprof文件 
 
@@ -44,7 +44,7 @@ VisualVM是Java自带的监控工具.有诸多强大的功能,其中一个很重
 
 排第一的是`com.google.common.cache.LocalCache$LocalManualCache`,占用内存高达3.5GB.这个类属于Guava Cache,一个用于实现本地缓存的库
 
-### 排查代码
+## 排查代码
 
 通过`Reference`定位到超大对象所属的类`GuavaCacheManager`,下面的代码是它的构造器.
 
@@ -79,7 +79,7 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 
 复习一下java引用类型相关的知识:
 
-### Java的引用类型
+## Java的引用类型
 
 - 强引用: 最常见的引用.如果一个对象具有强引用，那垃圾回收器绝不会回收它.
 
@@ -101,7 +101,7 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().softValues().soft
 
 复习一下本地缓存和分布式缓存的区别:
 
-### 本地缓存和分布式缓存
+## 本地缓存和分布式缓存
 
 本地缓存访问速度快,相对于分布式缓存省去了/IO/序列化/反序列化开销,但是由于缓存数据存放在内存中,所以无法进行大数据存储. 
 
