@@ -75,7 +75,9 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 
 把淘汰阈值改小并不能解决问题.首先很难确定一个够用的阈值,阈值设置的太小会导致频繁触发淘汰,设置的太大那么跟没设置一样.
 
-解决方法来自之前了解的`memcached`原理,java引用类型相关的知识:
+默认情况下,Guava Cache使用**强引用**存储Key和Value,也支持软引用.将缓存的key/value改为软引用,问题就解决了.
+
+复习一下java引用类型相关的知识:
 
 ### Java的引用类型
 
@@ -88,7 +90,7 @@ CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().maximumSize(maxSi
 - 虚引用: 对对象的生命周期没有影响.但可以在对象被回收时得到一个通知.
 
 
-默认情况下,Guava Cache使用**强引用**存储Key和Value.也支持软引用.将缓存的key/value改为软引用,问题就解决了:
+这样修改:
 
 ```java
 CacheBuilder<Object, Object> build = CacheBuilder.newBuilder().softValues().softValues().maximumSize(maxSize);
