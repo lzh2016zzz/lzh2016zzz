@@ -20,7 +20,7 @@ article_header:
 
 ## 格式化
 
-在任何请求后附加query参数`pretty=true`时，返回的JSON将被格式化,具有更好的可读性.另外还可以设置`format=yaml`,这样结果将以yml格式返回.
+在任何请求后附加query参数`pretty=true`时，返回的JSON将被格式化.另外还可以设置`format=yaml`,这样结果将以yml格式返回.
 
 ## 使返回值具有更好的可读性
 
@@ -143,7 +143,7 @@ GET twitter/_settings?flat_settings=true
 
 ## 参数
 
-所有http url参数都遵循使用下划线代替驼峰的规范.
+所有http url参数都遵循使用下划线替换大小写的规范.
 
 ## 布尔值类型
 
