@@ -20,7 +20,7 @@ article_header:
 <static_name{date_math_expr{date_format|time_zone}}>
 ```
 
-其中各个部分的意义是:
+其中各个部分代表了:
 
 - `static_name` : 索引的静态部分
 - `date_math_expr` : 用于动态计算日期的数学表达式
