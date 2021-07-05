@@ -69,8 +69,7 @@ docker exec -it elasticsearch /bin/bash
 ```
 
 
-
-## 模拟测试
+## 测试
 
 ### 测试ik分词器
 
