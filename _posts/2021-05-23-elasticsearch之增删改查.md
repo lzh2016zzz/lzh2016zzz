@@ -14,7 +14,7 @@ elasticsearch提供`restful`风格的Api用于对索引进行增删改查操作.
 
 <!--more-->
 
-# 介绍
+# API介绍
 
 ### 创建索引
 
@@ -37,7 +37,7 @@ PUT /test_index
 不支持直接修改已经存在的属性的类型或者名称 ,需要新建一个字段,然后把旧字段的数据拷贝过去
 {:.warning}
 
-### 新增
+### 新增文档
 
 ```bash
 POST /test_index/_doc
@@ -46,13 +46,13 @@ POST /test_index/_doc
 }
 ```
 
-### 删除
+### 删除文档
 
 ```bash
 DELETE /test_index/_doc/{索引id}
 ```
 
-## 修改
+### 修改文档
 
 实际上,elasticsearch的底层lucene索引不支持update.所以elasticsearch提供的`update api`其实是内部删除 + 更新的原子操作.好处是减少网络开销,并减少GET和index操作之间发生版本冲突的可能性.
 {:.success}
