@@ -57,7 +57,7 @@ docker exec -it elasticsearch /bin/bash
 ```bash
 ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v7.13.2/elasticsearch-analysis-ik-7.13.2.zip
 ```
-版本号不是越新越好.每个elasticsearch版本对应的ik分词器版本都有不同.在Github上作者罗列出了elasticsearch版本对应的ik分词器版本,下载对应的版本即可.
+版本号不是越新越好,在Github上作者罗列出了elasticsearch版本对应的ik分词器版本.
 {:.warning}
 
 
