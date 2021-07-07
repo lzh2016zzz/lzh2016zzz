@@ -124,5 +124,5 @@ POST test_index/_update_by_query
 
 # 参考资料
 
-[Document APIs](https://github.com/elastic/elasticsearch/edit/7.13/docs/reference/docs.asciidoc)
+[Document APIs](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html#docs)
 
