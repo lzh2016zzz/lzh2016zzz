@@ -174,7 +174,7 @@ GET /completeorder/_search
 
 ## IP范围聚合
 
-elasticsearch对IP范围聚合做了优化,在对用户请求日志做统计的时候非常有用:
+elasticsearch对IP范围聚合做了优化,在对用户请求来源做统计时非常有用:
 ```bash
 GET /ip_addresses/_search
 {
@@ -228,26 +228,15 @@ GET /pft_trade_journal/_search
 `total_money`是聚合的名称,`value`是聚合的结果.
 
 
+## 求最大值/最小值/平均值
 
-## 获取某个字段的最小值 
-
-```bash
-"aggregations":{
-  	"min_pay_money" : {
-  		"min" : {
-  			"field" : "pay_money"
-  		}
-  	}
-}
-```
-
-## 求最大值
-
-```bash
+```json
 ...
 "aggregations":{
   	"max_pay_money" : {
   		"max" : {
+  		//"min" : {
+  		//"avg" : {
   			"field" : "pay_money"
   		}
   	}
