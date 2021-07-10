@@ -1,0 +1,322 @@
+---
+tags: 
+   - elasticsearch
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /assets/images/cover1.jpg
+---
+
+根据官方定义,elasticsearch的聚合分为三类: `Metric`,`Bucket`,`Pipeline` 
+
+原谅我英语不好,实在是找不到合适的翻译.用通俗的话来描述:
+
+1. [Metric](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-metrics.html) 根据字段的值做计算.类似`sum`,`avg`,`count`这样的
+2. [Bucket](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket.html) 根据字段的值或范围进行分组处理.每种类型都会被放在一个叫做存储桶(`bucket`)的数据结构里.类似MySQL的`group by`
+3. [Pipeline](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-pipeline.html) 这个类型比较特殊.不是根据文档做聚合,而是通过其他聚合操作的结果进行二次聚合
+
+下面简单介绍一下这几种聚合API的用法.
+
+
+# 分组
+
+## 根据字段的值进行分组
+
+通过`terms`进行聚合查询,返回的结果类似MySQL的`group by`.DSL大概是这样: 
+
+```bash
+ ...
+ "aggregations": {
+        "template_item_code": {
+            "terms": {
+                "field": "template_item_code"
+            }
+        }
+ }
+```
+
+<!--more-->
+
+`terms`可以根据字段的值对扫描到的文档进行分类.比如我们现在有三种类型的流水数据: `1001`,`1002`,`1003`.
+elasticsearch就会创建三个bucket,分别存放这三种类型的数据的信息.
+
+`key`是流水类型,默认情况下会返回这三种流水类型的文档数量,也就是`doc_count`:
+
+```json
+...
+"aggregations" : {
+    "template_item_code" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : "1001",
+          "doc_count" : 1325
+        },
+        {
+          "key" : "1002",
+          "doc_count" : 675
+        },
+        {
+          "key" : "1003",
+          "doc_count" : 225
+        }
+      ]
+    }
+  }
+```
+
+默认下,elasticsearch的`terms`只会返回10条数据.通过`size`可以设置返回的条目数量
+{:.warning}
+
+## 根据分组二次聚合
+
+有时候我们想要对`terms`分组的数据进行二次聚合.
+
+比如上面的例子,还需要分别对每种账本类型的交易金额进行`求和`操作,可以这样写:
+
+```json
+   "aggregations": {
+        "template_item_code": {
+            "terms": {
+                "field": "template_item_code"
+            },
+            "aggregations": {
+                "money_sum": {
+                    "sum": {
+                        "field": "trade_money"
+                    }
+                }
+            }
+        }
+}
+```
+
+返回的数据里包含了`money_sum`,如果数值太大,`value`就会自动变成科学计数法:
+
+```json
+...
+"aggregations" : {
+    "template_item_code" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : 1001,
+          "doc_count" : 1325,
+          "money_sum" : {
+            "value" : 209999912
+          }
+        },
+        {
+          "key" : 1002,
+          "doc_count" : 675,
+          "money_sum" : {
+            "value" : 2.01852418E10
+          }
+        }]
+}
+```
+
+## 普通范围聚合
+
+有时候我们需要根据时间范围对文档进行聚合操作.比如统计最近三个月内每个月的订单数量.这时候就可以用上范围聚合了,`ordermonth`是下单的月份:
+
+
+```bash
+GET /completeorder/_search
+{
+  "aggregations": {
+    "time_ranges": {
+      "range": {
+        "field": "ordermonth",
+        "ranges": [
+          { "from": 1, "to": 2},
+          { "from": 2, "to": 3},
+          { "from": 3, "to": 4},
+        ]
+      }
+    }
+  }
+}
+```
+每个月的订单数量都会被作为一个存储桶返回:
+```json
+...
+"aggregations" : {
+    "time_ranges" : {
+      "buckets" : [
+        {
+          "key" : "1.0-2.0",
+          "from" : 1.0,
+          "to" : 2.0,
+          "doc_count" : 115
+        },
+        {
+          "key" : "2.0-3.0",
+          "from" : 2.0,
+          "to" : 3.0,
+          "doc_count" : 248
+        },
+        {
+          "key" : "3.0-4.0",
+          "from" : 3.0,
+          "to" : 4.0,
+          "doc_count" : 1186
+        }
+      ]
+    }
+  }
+```
+
+## IP范围聚合
+
+elasticsearch对IP范围聚合做了优化,在对用户请求日志做统计的时候非常有用:
+```bash
+GET /ip_addresses/_search
+{
+  "size": 10,
+  "aggs": {
+    "ip_ranges": {
+      "ip_range": {
+        "field": "ip",
+        "ranges": [
+          { "to": "10.0.0.5" },
+          { "from": "10.0.0.5" }
+        ]
+      }
+    }
+  }
+}
+```
+
+# 计算
+
+## 简单的求和操作
+
+dsl可以这样写:
+
+```bash
+GET /pft_trade_journal/_search
+{
+  "query": {
+    "match_all": {}
+  },
+  "aggregations":{
+  	"total_dmoney" : {
+  		"sum" : {
+  			"field" : "dmoney"
+  		}
+  	}
+  }
+}
+```
+
+这个聚合查询返回的是`dmoney`字段的和,格式是这样的 :
+
+```bash
+ ...
+"aggregations": {
+  "total_dmoney": {
+    "value": 11992318812928
+}
+```
+
+`total_money`是聚合的名称,`value`是聚合的结果.
+
+
+
+## 获取某个字段的最小值 
+
+```bash
+"aggregations":{
+  	"min_pay_money" : {
+  		"min" : {
+  			"field" : "pay_money"
+  		}
+  	}
+}
+```
+
+## 求最大值
+
+```bash
+...
+"aggregations":{
+  	"max_pay_money" : {
+  		"max" : {
+  			"field" : "pay_money"
+  		}
+  	}
+}
+```
+
+## 求加权平均值
+
+`weight`是权重字段
+
+```bash
+...
+"aggregations": {
+    "weighted_grade": {
+      "weighted_avg": {
+        "value": {
+          "field": "grade"
+        },
+        "weight": {
+          "field": "weight"
+        }
+      }
+    }
+  }
+```
+## 计算百分位
+
+```bash
+...
+"aggs": {
+    "load_time_outlier": {
+      "percentiles": {
+        "field": "load_time" 
+      }
+    }
+  }
+}
+```
+
+默认情况下，百分位数度量将生成一系列百分位数：`[1%、55、25%、50%、75%、95%、99%]`,也可以自己指定百分位.
+```bash
+{
+  ...
+ "aggregations": {
+    "load_time_outlier": {
+      "values": {
+        "1.0": 5.0,
+        "5.0": 25.0,
+        "25.0": 165.0,
+        "50.0": 445.0,
+        "75.0": 725.0,
+        "95.0": 945.0,
+        "99.0": 985.0
+      }
+    }
+  }
+}
+```
+
+
+
+其他(Metric)类型的聚合API使用方式大同小异,就不再赘述了.对了,Metric还支持脚本操作.可以用于复杂的数据计算.
+{:.success}
+
+
+
+
+
+# 参考资料
+
+ [Elasticsearch Guide 7.13 Aggregations](https://github.com/elastic/elasticsearch/edit/7.13/docs/reference/aggregations.asciidoc)
+
