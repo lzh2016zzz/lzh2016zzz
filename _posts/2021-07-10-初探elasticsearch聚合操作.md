@@ -14,7 +14,7 @@ article_header:
 
 原谅我英语不好,实在是找不到合适的翻译.用通俗的话来描述:
 
-1. [Metric](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-metrics.html) 根据字段的值做计算.类似`sum`,`avg`,`count`这样的
+1. [Metric](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-metrics.html) 根据字段的值做计算.类似`sum`,`avg`,`min`,`max`这样的
 2. [Bucket](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket.html) 根据字段的值或范围进行分组处理.每种类型都会被放在一个叫做存储桶(`bucket`)的数据结构里.类似MySQL的`group by`
 3. [Pipeline](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-pipeline.html) 这个类型比较特殊.不是根据文档做聚合,而是通过其他聚合操作的结果进行二次聚合
 
