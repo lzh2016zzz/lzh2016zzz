@@ -206,6 +206,8 @@ GET /ip_addresses/_search
 }
 ```
 
+
+
 # 计算
 
 ## 简单的求和操作
@@ -312,6 +314,60 @@ GET /pft_trade_journal/_search
 其他(Metric)类型的聚合API使用方式大同小异,就不再赘述了.对了,Metric还支持脚本操作.可以用于复杂的数据计算.
 {:.success}
 
+## 脚本聚合运算 (7.18补充)
+
+使用`scripted_metric`可以通过编写脚本对文档进行复杂的聚合运算,语法和`groovy`类似,兼容`java`语法,下面简单介绍一下它的用法.
+
+下面的聚合从文档中取出内嵌数组字段`aids_splits.sale_money`并进行求和操作,返回值存储在`state.moneys`里:
+
+```json
+...
+"aggs": {
+    "totalMoney": {
+      "scripted_metric": {
+        "init_script": "state.moneys = 0",
+        "map_script": """
+        	Map aids_splits = params.aids_split;
+        	state.moneys += aids_split.sale_money
+        """,
+        "combine_script": "state",
+        "reduce_script": """
+          def result = [:];
+          result.moneys = 0;
+          for(state in states){
+            result.moneys +=state.moneys
+          }
+          result
+        """
+      }
+    }
+  }
+```
+
+返回值是这样的,因为数字太大所以变成了科学计数法:
+
+```json
+...
+"aggregations" : {
+    "totalMoney" : {
+      "value" : {
+        "moneys" : 9.0969404096E10
+      }
+    }
+  }
+```
+
+脚本分为四个阶段: 
+
+- **init_script** : 初始化脚本,每个文档执行一次,用来做一些初始化的工作.在上面的例子里,将`state.moneys`的默认值设置为0
+- **map_script**: 映射脚本,每个文档执行一次.用来从文档中提取聚合需要的数据,在上面的例子里,从文档中提取`aids_splits`字段,并将`sale_money`存储在state中.
+- **combine_script** : 合并脚本,每个分片会通过执行这个脚本分别将收集到的数据做聚合处理.上面的例子里啥也没干.直接返回了state
+- **reduce_script** : 归约脚本.用于将每个分片收集到的结果做合并为一个结果.上面的例子里将每个分片收集到的结果进行了求和操作.
+
+使用脚本聚合会导致搜索速度变慢,集群负载飙升,应该尽量避免作为常规查询手段使用.尽量通过合理的索引结构设计完成需求.
+{:.error}
+
+
 # 数据误差问题
 
 使用elasticsearch做聚合操作时,结果可能带有误差. 举个例子,比如我们要获取每个分组里`money`最多的5个用户.
@@ -329,6 +385,10 @@ GET /pft_trade_journal/_search
 
 如果我们的分片数量是5,想取money数量前5名的用户,那么`shard_size`至少应该设置为5 * 5 = 25,才能保证不会出现误差的情况.
 当 `shard_size` 设置为小于5 ~ 25时,可以减少误差.此时需要在精度和性能之间做取舍.
+
+
+
+
 
 
 # 参考资料
