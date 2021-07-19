@@ -318,6 +318,14 @@ GET /pft_trade_journal/_search
 
 使用`scripted_metric`可以通过编写脚本对文档进行复杂的聚合运算,语法和`groovy`类似,兼容`java`语法,下面简单介绍一下它的用法.
 
+
+脚本分为四个阶段: 
+
+- **init_script** : 初始化脚本,每个文档执行一次,用来做一些初始化的工作
+- **map_script**: 映射脚本,每个文档执行一次.用来从文档中提取聚合需要的数据.
+- **combine_script** : 合并脚本,每个分片执行一次,会通过执行这个脚本分别将收集到的数据做聚合处理
+- **reduce_script** : 归约脚本.用于将每个分片收集到的数据合并为一个结果
+
 下面的聚合从文档中取出内嵌数组字段`aids_splits.sale_money`并进行求和操作,返回值存储在`state.moneys`里:
 
 ```json
@@ -325,12 +333,15 @@ GET /pft_trade_journal/_search
 "aggs": {
     "totalMoney": {
       "scripted_metric": {
+        //将`state.moneys`的默认值设置为0
         "init_script": "state.moneys = 0",
+        //从文档中提取`aids_splits`字段,并将`sale_money`存储在state中
         "map_script": """
         	Map aids_splits = params.aids_split;
         	state.moneys += aids_split.sale_money
         """,
         "combine_script": "state",
+        //将每个分片收集到的结果进行求和
         "reduce_script": """
           def result = [:];
           result.moneys = 0;
@@ -357,12 +368,6 @@ GET /pft_trade_journal/_search
   }
 ```
 
-脚本分为四个阶段: 
-
-- **init_script** : 初始化脚本,每个文档执行一次,用来做一些初始化的工作.在上面的例子里,将`state.moneys`的默认值设置为0
-- **map_script**: 映射脚本,每个文档执行一次.用来从文档中提取聚合需要的数据,在上面的例子里,从文档中提取`aids_splits`字段,并将`sale_money`存储在state中.
-- **combine_script** : 合并脚本,每个分片会通过执行这个脚本分别将收集到的数据做聚合处理.上面的例子里啥也没干.直接返回了state
-- **reduce_script** : 归约脚本.用于将每个分片收集到的结果做合并为一个结果.上面的例子里将每个分片收集到的结果进行了求和操作.
 
 使用脚本聚合会导致搜索速度变慢,集群负载飙升,应该尽量避免将它作为常规手段使用
 {:.error}
