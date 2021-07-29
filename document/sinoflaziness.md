@@ -1,11 +1,11 @@
 ---
-title: 懒惰的证明   
+title: 耻辱柱   
 layout: article
 sharing: true
 pageview: true
 ---
 
-希望2022年前能清空列表
+2022年之前填不完这些坑不如趁早回老家卖早点.这么懒还当什么程序员啊..
 
 ## 待到填坑完结日,家祭无忘告乃翁
 
