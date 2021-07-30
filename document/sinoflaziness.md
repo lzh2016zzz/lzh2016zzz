@@ -1,11 +1,9 @@
 ---
-title: 耻辱柱   
+title: 待填坑   
 layout: article
 sharing: true
 pageview: true
 ---
-
-2022年之前填不完这些坑不如趁早回老家卖早点.这么懒还当什么程序员啊TAT
 
 ## 待到填坑完结日,家祭无忘告乃翁
 
