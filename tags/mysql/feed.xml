@@ -1,0 +1,74 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Tue, 12 Feb 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/mysql/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-12-使用覆盖索引优化大偏移分页查询</guid>
+    <title>使用覆盖索引优化大偏移分页查询</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-12-使用覆盖索引优化大偏移分页查询</link>
+    undefined
+    <pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-mysql索引类型和优化</guid>
+    <title>mysql索引类型和优化</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-mysql索引类型和优化</link>
+    undefined
+    <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-在mysql中如何选择合适的数据类型</guid>
+    <title>在mysql中如何选择合适的数据类型</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-在mysql中如何选择合适的数据类型</link>
+    undefined
+    <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-10-关于mysql事务四大特性的个人理解</guid>
+    <title>关于mysql事务四大特性的个人理解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-10-关于mysql事务四大特性的个人理解</link>
+    undefined
+    <pubDate>Wed, 10 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-mysql大表查询优化</guid>
+    <title>mysql大表查询优化</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-mysql大表查询优化</link>
+    undefined
+    <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>mysql</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-mysql参数数量过多导致索引选择异常</guid>
+    <title>mysql参数数量过多导致索引选择异常</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-mysql参数数量过多导致索引选择异常</link>
+    undefined
+    <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>database</category><category>java</category><category>mysql</category>
+  </item>
+
+    </channel>
+  </rss>

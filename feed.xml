@@ -1,0 +1,884 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Mon, 25 Dec 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2023-12-25-ChatGPT Token计算器网页版</guid>
+    <title>ChatGPT Token计算器网页版</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2023-12-25-ChatGPT Token计算器网页版</link>
+    <description>ChatGPT Token计算器网页版</description>
+    <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>实用工具</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2023-12-25-消息队列常见问题和解决方案</guid>
+    <title>消息队列常见问题和解决方案</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2023-12-25-消息队列常见问题和解决方案</link>
+    <description>消息队列在现代应用架构中起着不可或缺的作用，特别是在削峰填谷、异步通信和系统解耦方面。然而，在利用这些优势的同时，我们也会遇到一些常见的挑战，如消息丢失、消息重复消费和消息积压等问题。本文旨在探讨这些问题的原因和解决方案</description>
+    <pubDate>Sat, 30 Apr 2022 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2022-03-01-排查下单缓慢问题：资金账户表行锁引起的数据竞争案例</guid>
+    <title>排查下单缓慢问题：资金账户表行锁引起的数据竞争案例</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2022-03-01-排查下单缓慢问题：资金账户表行锁引起的数据竞争案例</link>
+    undefined
+    <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2022-01-30-如何使用Parallel Stream</guid>
+    <title>什么时候应该使用Parallel Stream</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2022-01-30-如何使用Parallel Stream</link>
+    <description>Java8引入了Stream API,它使得将集合作为数据流进行迭代变非常很容易。创建并行执行并利用多个CPU的流也非常容易.我们可能会认为,并行执行任务一定比串行执行快,但情况往往并非如此.这篇文章分析了常见情况下使用流对性能的影响.以及什么情况下使用流能提升性能.</description>
+    <pubDate>Sun, 30 Jan 2022 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2022-01-03-Java字符串性能相关</guid>
+    <title>Java字符串性能相关</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2022-01-03-Java字符串性能相关</link>
+    <description>java是一门注重实用,降低开发难度的语言,所以java引入了gc,并且把字符串中复杂的部分全封装在了语法之后,不让用户接触这些,宁可丢失一点点效率也不愿意让用户面对复杂的语法.在本教程中,将重点介绍Java string API的性能方面,深入挖掘字符串的创建、转换和修改操作来分析可用的选项,并比较它们的效率.</description>
+    <pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-09-01-威尔逊法计算商品排名的置信区间</guid>
+    <title>威尔逊法计算商品排名的置信区间</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-09-01-威尔逊法计算商品排名的置信区间</link>
+    <description>一个可靠的计算置信区间的算法.普通的计算置信区间的算法在样本数量很少的情况下准确性比较差.威尔逊区间不会出现这个问题.文章末尾附上了在线测试版本方便测试使用</description>
+    <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>算法</category><category>实用工具</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-08-15-热key导致的redis拒绝连接问题排查</guid>
+    <title>热key导致的redis拒绝连接问题排查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-08-15-热key导致的redis拒绝连接问题排查</link>
+    <description>排查解决由于redis访问倾斜导致拒绝连接的问题</description>
+    <pubDate>Sun, 15 Aug 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-26-k8s伸缩导致kafka rebalance</guid>
+    <title>k8s伸缩导致kafka rebalance</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-26-k8s伸缩导致kafka rebalance</link>
+    <description>生产环境的某个kafka消费者集群在业务高峰期大概率性能出现断崖式下跌,每次持续大概1分钟以后恢复正常.将部分生产流量导入灰度环境,尝试重现问题,然而失败.看了很久代码,也没找到问题.最后经过运维提醒才发现原来每次业务高峰期都会触发k8s伸缩. 导致kafka rebalance,降低消息的消费速度.</description>
+    <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-10-初探elasticsearch聚合操作</guid>
+    <title>初探elasticsearch聚合操作</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-10-初探elasticsearch聚合操作</link>
+    <description>elasticsearch的聚合速度非常快.而且和搜索一样是近实时的.所以很多公司(包括我们)建立了elasticsearch集群专门用来处理那些耗时的数据分析操作.这篇文章介绍了elasticsearch聚合的用法以及一些常见的坑</description>
+    <pubDate>Sat, 10 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-elasticsearch中文分词实战</guid>
+    <title>elasticsearch中文分词实战</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-elasticsearch中文分词实战</link>
+    <description>在 elasticsearch 中搜索中文数据时.如果使用默认的分词器,在搜索时会出现输入一个词或一段话却搜索不到结果,或者只能通过一个字去匹配的情况.这是因为默认分词器只支持将中文单词分割成一个一个字进行检索,通过引入中文分词器可以解决这个问题.</description>
+    <pubDate>Mon, 05 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-在elasticsearch中通过日期表达式匹配索引</guid>
+    <title>在elasticsearch中通过日期表达式匹配索引</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-在elasticsearch中通过日期表达式匹配索引</link>
+    <description>有时候我们需要按时间范围过滤文档.在 elasticsearch 里,支持通过日期表达式匹配索引名称.相比搜索所有索引/分片并过滤出结果,这样做的好处是可以减少扫描的文档数量并提高查询性能.绝大部分支持索引名称作为参数的 api 都支持日期表达式.</description>
+    <pubDate>Mon, 05 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-27-GuavaCache强引用导致out of memory error</guid>
+    <title>GuavaCache强引用导致的内存泄漏问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-27-GuavaCache强引用导致out of memory error</link>
+    <description>看了网上的例子就直接抄过来用的人总是能写出一些奇奇怪怪的bug.</description>
+    <pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-25-AtomicReference和原子操作</guid>
+    <title>AtomicReference和原子操作</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-25-AtomicReference和原子操作</link>
+    <description>AtomicReference类提供了一个可以将普通对象包装为原子对象的工具.原子对象意味着在多个线程同时修改一个AtomicReference&lt;T&gt;引用的对象时可以保证线程安全.一般来说,在多个线程访问共享资源时,需要通过加锁控制并发</description>
+    <pubDate>Fri, 25 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-24-Elasticsearch通用配置</guid>
+    <title>Elasticsearch通用配置</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-24-Elasticsearch通用配置</link>
+    <description>本篇翻译的是 elasticsearch7.0 版本官方文档的通用配置.以下配置可以用于优化对 elasticsearch 的请求,且适用于所有的 Rest API,这对使用 elasticsearch 是很有帮助的</description>
+    <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-23-Elasticsearch字段自动映射</guid>
+    <title>Elasticsearch字段自动映射</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-23-Elasticsearch字段自动映射</link>
+    undefined
+    <pubDate>Wed, 23 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-13-关于 ElasticSearch的Update By Query</guid>
+    <title>关于 ElasticSearch的Update By Query</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-13-关于 ElasticSearch的Update By Query</link>
+    <description>介绍elasticsearch的Update By Query操作,坑比较多.</description>
+    <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-04-学习Elasticsearch的利器:kibana</guid>
+    <title>学习Elasticsearch的利器:kibana</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-04-学习Elasticsearch的利器:kibana</link>
+    undefined
+    <pubDate>Fri, 04 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-03-Elasticsearch深度分页处理</guid>
+    <title>Elasticsearch深度分页处理</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-03-Elasticsearch深度分页处理</link>
+    <description>记录一下我们的elasticsearch深分页问题的生产解决方案.</description>
+    <pubDate>Thu, 03 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-01-interface xx is not visible from ClassLoader</guid>
+    <title>interface xx is not visible from ClassLoader</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-01-interface xx is not visible from ClassLoader</link>
+    undefined
+    <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-mysql参数数量过多导致索引选择异常</guid>
+    <title>mysql参数数量过多导致索引选择异常</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-mysql参数数量过多导致索引选择异常</link>
+    undefined
+    <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>database</category><category>java</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</guid>
+    <title>redis异常:ERR bad lua script for redis cluster</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</link>
+    undefined
+    <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>速查</category><category>redis</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-23-elasticsearch之增删改查</guid>
+    <title>elasticsearch之增删改查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-23-elasticsearch之增删改查</link>
+    undefined
+    <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-21-ElasticSearch安装</guid>
+    <title>ElasticSearch安装</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-21-ElasticSearch安装</link>
+    undefined
+    <pubDate>Fri, 21 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-18-Elasticsearch之数据搜索</guid>
+    <title>Elasticsearch之数据搜索</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-18-Elasticsearch之数据搜索</link>
+    undefined
+    <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-16-Elasticsearch学习资料</guid>
+    <title>Elasticsearch学习资料</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-16-Elasticsearch学习资料</link>
+    undefined
+    <pubDate>Sun, 16 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-15-Elasticsearch介绍</guid>
+    <title>Elasticsearch介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-15-Elasticsearch介绍</link>
+    undefined
+    <pubDate>Sat, 15 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing</guid>
+    <title>Introducing Multi-part Posts with Nested Routing</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing</link>
+    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
+    <pubDate>Sun, 02 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>multi-author</category><category>next-js</category><category>feature</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-21-Redis主备切换时数据丢失问题</guid>
+    <title>Redis主备切换时数据丢失问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-21-Redis主备切换时数据丢失问题</link>
+    undefined
+    <pubDate>Sun, 21 Feb 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-React入门之路由</guid>
+    <title>React入门之路由</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-React入门之路由</link>
+    undefined
+    <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>react</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-mysql大表查询优化</guid>
+    <title>mysql大表查询优化</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-mysql大表查询优化</link>
+    undefined
+    <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>mysql</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-01-19-React入门之hooks</guid>
+    <title>React入门之hooks</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-01-19-React入门之hooks</link>
+    undefined
+    <pubDate>Tue, 19 Jan 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>react</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-01-19-React入门之request</guid>
+    <title>React入门之request</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-01-19-React入门之request</link>
+    undefined
+    <pubDate>Tue, 19 Jan 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>拾遗</category><category>react</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-01-17-React入门之函数组件</guid>
+    <title>React入门之函数组件</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-01-17-React入门之函数组件</link>
+    undefined
+    <pubDate>Sun, 17 Jan 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>react</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-08-31-lombok原理以及介绍</guid>
+    <title>lombok原理以及介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-08-31-lombok原理以及介绍</link>
+    undefined
+    <pubDate>Mon, 31 Aug 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-05-19-用一个简单例子解释什么是Oauth2</guid>
+    <title>用一个简单例子解释什么是Oauth2</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-05-19-用一个简单例子解释什么是Oauth2</link>
+    undefined
+    <pubDate>Tue, 19 May 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-25-用spring shell 写一个spring 应用监控程序</guid>
+    <title>用spring shell 写一个spring 应用监控程序</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-25-用spring shell 写一个spring 应用监控程序</link>
+    undefined
+    <pubDate>Wed, 25 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-21-java agent技术详解</guid>
+    <title>java agent技术详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-21-java agent技术详解</link>
+    undefined
+    <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>java</category><category>技术</category><category>java agent</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-20-排查线上redis连接超时问题</guid>
+    <title>排查线上redis连接超时问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-20-排查线上redis连接超时问题</link>
+    undefined
+    <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>database</category><category>redis</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-16-工作流引擎选型调研</guid>
+    <title>工作流引擎选型调研</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-16-工作流引擎选型调研</link>
+    undefined
+    <pubDate>Mon, 16 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-11-搭建Mongodb集群</guid>
+    <title>搭建Mongodb集群</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-11-搭建Mongodb集群</link>
+    undefined
+    <pubDate>Wed, 11 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>数据库</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-01-警惕java数组协变特性导致的问题</guid>
+    <title>警惕java数组协变特性导致的问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-01-警惕java数组协变特性导致的问题</link>
+    undefined
+    <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-24-那些酷炫实用好玩的idea插件</guid>
+    <title>那些酷炫实用好玩的idea插件</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-24-那些酷炫实用好玩的idea插件</link>
+    undefined
+    <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>拾遗</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-17-找到jvm中占用cpu最高的线程</guid>
+    <title>找到jvm中占用cpu最高的线程</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-17-找到jvm中占用cpu最高的线程</link>
+    undefined
+    <pubDate>Mon, 17 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-16-如何基于gitee搭建一个属于自己的免费图床</guid>
+    <title>如何基于gitee搭建一个属于自己的免费图床</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-16-如何基于gitee搭建一个属于自己的免费图床</link>
+    undefined
+    <pubDate>Sun, 16 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>git</category><category>拾遗</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-13-基于redis的分布式读写锁实现</guid>
+    <title>基于redis的分布式读写锁实现</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-13-基于redis的分布式读写锁实现</link>
+    undefined
+    <pubDate>Thu, 13 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-03-spring boot配置分布式对象网格</guid>
+    <title>spring boot配置分布式对象网格</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-03-spring boot配置分布式对象网格</link>
+    undefined
+    <pubDate>Mon, 03 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-02-简单vpn服务在家连接公司内网设施</guid>
+    <title>简单vpn服务在家连接公司内网设施</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-02-简单vpn服务在家连接公司内网设施</link>
+    undefined
+    <pubDate>Sun, 02 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>拾遗</category><category>vpn</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-27-用lua脚本实现redis原子事务</guid>
+    <title>用lua脚本实现redis原子事务</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-27-用lua脚本实现redis原子事务</link>
+    undefined
+    <pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-10-记一次由于网关重试导致的生产事故</guid>
+    <title>记一次由于网关重试导致的生产事故</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-10-记一次由于网关重试导致的生产事故</link>
+    undefined
+    <pubDate>Fri, 10 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-docker 可以无视系统防火墙暴露端口的问题</guid>
+    <title>docker 可以无视系统防火墙暴露端口的问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-docker 可以无视系统防火墙暴露端口的问题</link>
+    undefined
+    <pubDate>Thu, 09 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>docker</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-在linux下配置swap分区</guid>
+    <title>在linux下配置swap分区</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-在linux下配置swap分区</link>
+    undefined
+    <pubDate>Thu, 09 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>经验</category><category>linux</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-用scala + netty 写一个rest服务器</guid>
+    <title>用scala + netty 写一个rest服务器</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-用scala + netty 写一个rest服务器</link>
+    undefined
+    <pubDate>Thu, 09 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</guid>
+    <title>Spring Cloud 使用Nacos作为配置中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</link>
+    undefined
+    <pubDate>Wed, 04 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category><category>nacos</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-03-自动拆装箱介绍以及可能引起的问题</guid>
+    <title>自动拆装箱介绍以及可能引起的问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-03-自动拆装箱介绍以及可能引起的问题</link>
+    undefined
+    <pubDate>Tue, 03 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-02-SpringCloud如何透传HttpHeader</guid>
+    <title>SpringCloud如何透传HttpHeader</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-02-SpringCloud如何透传HttpHeader</link>
+    undefined
+    <pubDate>Mon, 02 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-01-Spring Cloud Open Feign详解</guid>
+    <title>Spring Cloud Open Feign详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-01-Spring Cloud Open Feign详解</link>
+    undefined
+    <pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-30-Spring Cloud 选择合适的注册中心</guid>
+    <title>Spring Cloud 选择合适的注册中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-30-Spring Cloud 选择合适的注册中心</link>
+    undefined
+    <pubDate>Sat, 30 Nov 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-01-说说redis的数据过期策略和内存淘汰机制</guid>
+    <title>说说redis的数据过期策略和内存淘汰机制</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-01-说说redis的数据过期策略和内存淘汰机制</link>
+    undefined
+    <pubDate>Fri, 01 Nov 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-15-基于docker快速搭建elk日志系统</guid>
+    <title>基于docker快速搭建elk日志系统</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-15-基于docker快速搭建elk日志系统</link>
+    undefined
+    <pubDate>Sun, 15 Sep 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category><category>docker</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-12-ArrayList.add()报UnsupportedOperationException</guid>
+    <title>ArrayList.add()报UnsupportedOperationException</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-12-ArrayList.add()报UnsupportedOperationException</link>
+    undefined
+    <pubDate>Thu, 12 Sep 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-08-15-基于docker搭建redis和mongodb的过程和一些坑</guid>
+    <title>基于docker搭建redis和mongodb的过程和一些坑</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-08-15-基于docker搭建redis和mongodb的过程和一些坑</link>
+    undefined
+    <pubDate>Thu, 15 Aug 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>mongo</category><category>redis</category><category>docker</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-07-16-docker常用命令速查</guid>
+    <title>docker常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-07-16-docker常用命令速查</link>
+    undefined
+    <pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>速查</category><category>docker</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-12-java内存模型介绍</guid>
+    <title>java内存模型介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-12-java内存模型介绍</link>
+    undefined
+    <pubDate>Fri, 12 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-10-关于mysql事务四大特性的个人理解</guid>
+    <title>关于mysql事务四大特性的个人理解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-10-关于mysql事务四大特性的个人理解</link>
+    undefined
+    <pubDate>Wed, 10 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-mysql索引类型和优化</guid>
+    <title>mysql索引类型和优化</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-mysql索引类型和优化</link>
+    undefined
+    <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-在mysql中如何选择合适的数据类型</guid>
+    <title>在mysql中如何选择合适的数据类型</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-04-09-在mysql中如何选择合适的数据类型</link>
+    undefined
+    <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-18-通过原子变量保证程序的线程安全</guid>
+    <title>通过原子变量保证程序的线程安全</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-18-通过原子变量保证程序的线程安全</link>
+    undefined
+    <pubDate>Mon, 18 Mar 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>并发</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-16-volatile关键字作用和原理</guid>
+    <title>volatile关键字作用和原理</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-16-volatile关键字作用和原理</link>
+    undefined
+    <pubDate>Sat, 16 Mar 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>并发</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-16-在redis中应尽量用scan代替keys命令</guid>
+    <title>在redis中应尽量用scan代替keys命令</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-16-在redis中应尽量用scan代替keys命令</link>
+    undefined
+    <pubDate>Sat, 16 Mar 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-14-详细了解java并发的三大特性,指令重排序和先行发生原则</guid>
+    <title>详细了解java并发的三大特性,指令重排序和先行发生原则</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-14-详细了解java并发的三大特性,指令重排序和先行发生原则</link>
+    undefined
+    <pubDate>Thu, 14 Mar 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>并发</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-11-java.util.concurrent 并发包介绍</guid>
+    <title>java.util.concurrent 并发包介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-11-java.util.concurrent 并发包介绍</link>
+    undefined
+    <pubDate>Mon, 11 Mar 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>并发</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-17-关于java的强引用,弱引用,软引用,虚引用</guid>
+    <title>关于java的强引用,弱引用,软引用,虚引用</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-17-关于java的强引用,弱引用,软引用,虚引用</link>
+    undefined
+    <pubDate>Sun, 17 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-14-jvm垃圾回收算法介绍</guid>
+    <title>jvm垃圾回收算法介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-14-jvm垃圾回收算法介绍</link>
+    undefined
+    <pubDate>Thu, 14 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>java</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-13-centos防火墙firewalld常用命令速查</guid>
+    <title>centos防火墙firewalld常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-13-centos防火墙firewalld常用命令速查</link>
+    undefined
+    <pubDate>Wed, 13 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>linux</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-12-使用覆盖索引优化大偏移分页查询</guid>
+    <title>使用覆盖索引优化大偏移分页查询</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-12-使用覆盖索引优化大偏移分页查询</link>
+    undefined
+    <pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category><category>mysql</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-23- spring bean 详解</guid>
+    <title>spring bean 详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-23- spring bean 详解</link>
+    undefined
+    <pubDate>Wed, 23 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>读书笔记</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-18-为什么要使用IOC容器</guid>
+    <title>为什么要使用IOC容器</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-18-为什么要使用IOC容器</link>
+    undefined
+    <pubDate>Fri, 18 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>读书笔记</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-16-如何选择合适的redis持久化策略</guid>
+    <title>如何选择合适的redis持久化策略</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-16-如何选择合适的redis持久化策略</link>
+    undefined
+    <pubDate>Wed, 16 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-14-git常用命令速查</guid>
+    <title>git常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-14-git常用命令速查</link>
+    undefined
+    <pubDate>Mon, 14 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>git</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-fegin传输字符串时处理空格的坑</guid>
+    <title>fegin传输字符串时处理空格的坑</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-fegin传输字符串时处理空格的坑</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring cloud</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-jvm服务端优化配置速查</guid>
+    <title>jvm服务端优化配置速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-jvm服务端优化配置速查</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-redis中的数据结构详解和使用场景</guid>
+    <title>redis中的数据结构详解和使用场景</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-redis中的数据结构详解和使用场景</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-spring事务传播行为介绍</guid>
+    <title>spring事务传播行为介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-spring事务传播行为介绍</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>读书笔记</category><category>database</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-12- aop技术介绍,例子以及原理</guid>
+    <title>aop技术介绍,例子以及原理</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-12- aop技术介绍,例子以及原理</link>
+    undefined
+    <pubDate>Wed, 12 Dec 2018 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-03-ThreadLocal介绍以及原理</guid>
+    <title>ThreadLocal介绍以及原理</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-03-ThreadLocal介绍以及原理</link>
+    undefined
+    <pubDate>Mon, 03 Dec 2018 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-01-为什么要使用线程池以及线程池用法详解</guid>
+    <title>为什么要使用线程池以及线程池用法详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-01-为什么要使用线程池以及线程池用法详解</link>
+    undefined
+    <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-01-单例模式进化史</guid>
+    <title>单例模式进化史</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-01-单例模式进化史</link>
+    undefined
+    <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category>
+  </item>
+
+    </channel>
+  </rss>

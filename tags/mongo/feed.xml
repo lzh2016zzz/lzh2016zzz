@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Thu, 15 Aug 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/mongo/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-08-15-基于docker搭建redis和mongodb的过程和一些坑</guid>
+    <title>基于docker搭建redis和mongodb的过程和一些坑</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-08-15-基于docker搭建redis和mongodb的过程和一些坑</link>
+    undefined
+    <pubDate>Thu, 15 Aug 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>mongo</category><category>redis</category><category>docker</category>
+  </item>
+
+    </channel>
+  </rss>

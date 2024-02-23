@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Wed, 13 Feb 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/linux/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-13-centos防火墙firewalld常用命令速查</guid>
+    <title>centos防火墙firewalld常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-13-centos防火墙firewalld常用命令速查</link>
+    undefined
+    <pubDate>Wed, 13 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>linux</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-在linux下配置swap分区</guid>
+    <title>在linux下配置swap分区</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-在linux下配置swap分区</link>
+    undefined
+    <pubDate>Thu, 09 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>经验</category><category>linux</category>
+  </item>
+
+    </channel>
+  </rss>

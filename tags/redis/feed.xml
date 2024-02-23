@@ -1,0 +1,124 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Sun, 13 Jan 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/redis/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-redis中的数据结构详解和使用场景</guid>
+    <title>redis中的数据结构详解和使用场景</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-redis中的数据结构详解和使用场景</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-16-如何选择合适的redis持久化策略</guid>
+    <title>如何选择合适的redis持久化策略</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-16-如何选择合适的redis持久化策略</link>
+    undefined
+    <pubDate>Wed, 16 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-16-在redis中应尽量用scan代替keys命令</guid>
+    <title>在redis中应尽量用scan代替keys命令</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-03-16-在redis中应尽量用scan代替keys命令</link>
+    undefined
+    <pubDate>Sat, 16 Mar 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-08-15-基于docker搭建redis和mongodb的过程和一些坑</guid>
+    <title>基于docker搭建redis和mongodb的过程和一些坑</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-08-15-基于docker搭建redis和mongodb的过程和一些坑</link>
+    undefined
+    <pubDate>Thu, 15 Aug 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>mongo</category><category>redis</category><category>docker</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-01-说说redis的数据过期策略和内存淘汰机制</guid>
+    <title>说说redis的数据过期策略和内存淘汰机制</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-01-说说redis的数据过期策略和内存淘汰机制</link>
+    undefined
+    <pubDate>Fri, 01 Nov 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>读书笔记</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-27-用lua脚本实现redis原子事务</guid>
+    <title>用lua脚本实现redis原子事务</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-27-用lua脚本实现redis原子事务</link>
+    undefined
+    <pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-03-spring boot配置分布式对象网格</guid>
+    <title>spring boot配置分布式对象网格</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-03-spring boot配置分布式对象网格</link>
+    undefined
+    <pubDate>Mon, 03 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-13-基于redis的分布式读写锁实现</guid>
+    <title>基于redis的分布式读写锁实现</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-13-基于redis的分布式读写锁实现</link>
+    undefined
+    <pubDate>Thu, 13 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-20-排查线上redis连接超时问题</guid>
+    <title>排查线上redis连接超时问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-20-排查线上redis连接超时问题</link>
+    undefined
+    <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>database</category><category>redis</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-21-Redis主备切换时数据丢失问题</guid>
+    <title>Redis主备切换时数据丢失问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-21-Redis主备切换时数据丢失问题</link>
+    undefined
+    <pubDate>Sun, 21 Feb 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>经验</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</guid>
+    <title>redis异常:ERR bad lua script for redis cluster</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</link>
+    undefined
+    <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>速查</category><category>redis</category><category>bug排查</category>
+  </item>
+
+    </channel>
+  </rss>

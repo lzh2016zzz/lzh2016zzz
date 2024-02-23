@@ -1,0 +1,64 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Sun, 13 Jan 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/速查/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-jvm服务端优化配置速查</guid>
+    <title>jvm服务端优化配置速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-jvm服务端优化配置速查</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-14-git常用命令速查</guid>
+    <title>git常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-14-git常用命令速查</link>
+    undefined
+    <pubDate>Mon, 14 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>git</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-13-centos防火墙firewalld常用命令速查</guid>
+    <title>centos防火墙firewalld常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-02-13-centos防火墙firewalld常用命令速查</link>
+    undefined
+    <pubDate>Wed, 13 Feb 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>linux</category><category>速查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-07-16-docker常用命令速查</guid>
+    <title>docker常用命令速查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-07-16-docker常用命令速查</link>
+    undefined
+    <pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>速查</category><category>docker</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</guid>
+    <title>redis异常:ERR bad lua script for redis cluster</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</link>
+    undefined
+    <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>速查</category><category>redis</category><category>bug排查</category>
+  </item>
+
+    </channel>
+  </rss>

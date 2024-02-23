@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Wed, 04 Dec 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/nacos/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</guid>
+    <title>Spring Cloud 使用Nacos作为配置中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</link>
+    undefined
+    <pubDate>Wed, 04 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category><category>nacos</category>
+  </item>
+
+    </channel>
+  </rss>

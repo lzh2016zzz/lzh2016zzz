@@ -1,0 +1,144 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Wed, 12 Dec 2018 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/spring/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-12- aop技术介绍,例子以及原理</guid>
+    <title>aop技术介绍,例子以及原理</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2018-12-12- aop技术介绍,例子以及原理</link>
+    undefined
+    <pubDate>Wed, 12 Dec 2018 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-spring事务传播行为介绍</guid>
+    <title>spring事务传播行为介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-spring事务传播行为介绍</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>读书笔记</category><category>database</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-18-为什么要使用IOC容器</guid>
+    <title>为什么要使用IOC容器</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-18-为什么要使用IOC容器</link>
+    undefined
+    <pubDate>Fri, 18 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>读书笔记</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-23- spring bean 详解</guid>
+    <title>spring bean 详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-23- spring bean 详解</link>
+    undefined
+    <pubDate>Wed, 23 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>读书笔记</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-30-Spring Cloud 选择合适的注册中心</guid>
+    <title>Spring Cloud 选择合适的注册中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-30-Spring Cloud 选择合适的注册中心</link>
+    undefined
+    <pubDate>Sat, 30 Nov 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-01-Spring Cloud Open Feign详解</guid>
+    <title>Spring Cloud Open Feign详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-01-Spring Cloud Open Feign详解</link>
+    undefined
+    <pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-02-SpringCloud如何透传HttpHeader</guid>
+    <title>SpringCloud如何透传HttpHeader</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-02-SpringCloud如何透传HttpHeader</link>
+    undefined
+    <pubDate>Mon, 02 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</guid>
+    <title>Spring Cloud 使用Nacos作为配置中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</link>
+    undefined
+    <pubDate>Wed, 04 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category><category>nacos</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-10-记一次由于网关重试导致的生产事故</guid>
+    <title>记一次由于网关重试导致的生产事故</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-10-记一次由于网关重试导致的生产事故</link>
+    undefined
+    <pubDate>Fri, 10 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-03-spring boot配置分布式对象网格</guid>
+    <title>spring boot配置分布式对象网格</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-03-spring boot配置分布式对象网格</link>
+    undefined
+    <pubDate>Mon, 03 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>redis</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-21-java agent技术详解</guid>
+    <title>java agent技术详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-21-java agent技术详解</link>
+    undefined
+    <pubDate>Sat, 21 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>java</category><category>技术</category><category>java agent</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-25-用spring shell 写一个spring 应用监控程序</guid>
+    <title>用spring shell 写一个spring 应用监控程序</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-25-用spring shell 写一个spring 应用监控程序</link>
+    undefined
+    <pubDate>Wed, 25 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>java</category><category>技术</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-05-19-用一个简单例子解释什么是Oauth2</guid>
+    <title>用一个简单例子解释什么是Oauth2</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-05-19-用一个简单例子解释什么是Oauth2</link>
+    undefined
+    <pubDate>Tue, 19 May 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>java</category><category>技术</category>
+  </item>
+
+    </channel>
+  </rss>

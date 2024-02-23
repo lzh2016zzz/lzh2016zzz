@@ -1,0 +1,154 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Sun, 15 Sep 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/elasticsearch/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-15-基于docker快速搭建elk日志系统</guid>
+    <title>基于docker快速搭建elk日志系统</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-15-基于docker快速搭建elk日志系统</link>
+    undefined
+    <pubDate>Sun, 15 Sep 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category><category>docker</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-15-Elasticsearch介绍</guid>
+    <title>Elasticsearch介绍</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-15-Elasticsearch介绍</link>
+    undefined
+    <pubDate>Sat, 15 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-16-Elasticsearch学习资料</guid>
+    <title>Elasticsearch学习资料</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-16-Elasticsearch学习资料</link>
+    undefined
+    <pubDate>Sun, 16 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-18-Elasticsearch之数据搜索</guid>
+    <title>Elasticsearch之数据搜索</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-18-Elasticsearch之数据搜索</link>
+    undefined
+    <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-21-ElasticSearch安装</guid>
+    <title>ElasticSearch安装</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-21-ElasticSearch安装</link>
+    undefined
+    <pubDate>Fri, 21 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-23-elasticsearch之增删改查</guid>
+    <title>elasticsearch之增删改查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-23-elasticsearch之增删改查</link>
+    undefined
+    <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-03-Elasticsearch深度分页处理</guid>
+    <title>Elasticsearch深度分页处理</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-03-Elasticsearch深度分页处理</link>
+    <description>记录一下我们的elasticsearch深分页问题的生产解决方案.</description>
+    <pubDate>Thu, 03 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-04-学习Elasticsearch的利器:kibana</guid>
+    <title>学习Elasticsearch的利器:kibana</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-04-学习Elasticsearch的利器:kibana</link>
+    undefined
+    <pubDate>Fri, 04 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-13-关于 ElasticSearch的Update By Query</guid>
+    <title>关于 ElasticSearch的Update By Query</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-13-关于 ElasticSearch的Update By Query</link>
+    <description>介绍elasticsearch的Update By Query操作,坑比较多.</description>
+    <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-23-Elasticsearch字段自动映射</guid>
+    <title>Elasticsearch字段自动映射</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-23-Elasticsearch字段自动映射</link>
+    undefined
+    <pubDate>Wed, 23 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-24-Elasticsearch通用配置</guid>
+    <title>Elasticsearch通用配置</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-24-Elasticsearch通用配置</link>
+    <description>本篇翻译的是 elasticsearch7.0 版本官方文档的通用配置.以下配置可以用于优化对 elasticsearch 的请求,且适用于所有的 Rest API,这对使用 elasticsearch 是很有帮助的</description>
+    <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-elasticsearch中文分词实战</guid>
+    <title>elasticsearch中文分词实战</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-elasticsearch中文分词实战</link>
+    <description>在 elasticsearch 中搜索中文数据时.如果使用默认的分词器,在搜索时会出现输入一个词或一段话却搜索不到结果,或者只能通过一个字去匹配的情况.这是因为默认分词器只支持将中文单词分割成一个一个字进行检索,通过引入中文分词器可以解决这个问题.</description>
+    <pubDate>Mon, 05 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-在elasticsearch中通过日期表达式匹配索引</guid>
+    <title>在elasticsearch中通过日期表达式匹配索引</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-05-在elasticsearch中通过日期表达式匹配索引</link>
+    <description>有时候我们需要按时间范围过滤文档.在 elasticsearch 里,支持通过日期表达式匹配索引名称.相比搜索所有索引/分片并过滤出结果,这样做的好处是可以减少扫描的文档数量并提高查询性能.绝大部分支持索引名称作为参数的 api 都支持日期表达式.</description>
+    <pubDate>Mon, 05 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-10-初探elasticsearch聚合操作</guid>
+    <title>初探elasticsearch聚合操作</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-10-初探elasticsearch聚合操作</link>
+    <description>elasticsearch的聚合速度非常快.而且和搜索一样是近实时的.所以很多公司(包括我们)建立了elasticsearch集群专门用来处理那些耗时的数据分析操作.这篇文章介绍了elasticsearch聚合的用法以及一些常见的坑</description>
+    <pubDate>Sat, 10 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>elasticsearch</category>
+  </item>
+
+    </channel>
+  </rss>

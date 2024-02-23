@@ -1,0 +1,64 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Sun, 13 Jan 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/spring-cloud/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-fegin传输字符串时处理空格的坑</guid>
+    <title>fegin传输字符串时处理空格的坑</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-fegin传输字符串时处理空格的坑</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring cloud</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-30-Spring Cloud 选择合适的注册中心</guid>
+    <title>Spring Cloud 选择合适的注册中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-11-30-Spring Cloud 选择合适的注册中心</link>
+    undefined
+    <pubDate>Sat, 30 Nov 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-01-Spring Cloud Open Feign详解</guid>
+    <title>Spring Cloud Open Feign详解</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-01-Spring Cloud Open Feign详解</link>
+    undefined
+    <pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-02-SpringCloud如何透传HttpHeader</guid>
+    <title>SpringCloud如何透传HttpHeader</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-02-SpringCloud如何透传HttpHeader</link>
+    undefined
+    <pubDate>Mon, 02 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</guid>
+    <title>Spring Cloud 使用Nacos作为配置中心</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-12-04-Spring Cloud 使用Nacos作为配置中心</link>
+    undefined
+    <pubDate>Wed, 04 Dec 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>spring cloud</category><category>nacos</category>
+  </item>
+
+    </channel>
+  </rss>

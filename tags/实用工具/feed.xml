@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Wed, 01 Sep 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/实用工具/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-09-01-威尔逊法计算商品排名的置信区间</guid>
+    <title>威尔逊法计算商品排名的置信区间</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-09-01-威尔逊法计算商品排名的置信区间</link>
+    <description>一个可靠的计算置信区间的算法.普通的计算置信区间的算法在样本数量很少的情况下准确性比较差.威尔逊区间不会出现这个问题.文章末尾附上了在线测试版本方便测试使用</description>
+    <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>算法</category><category>实用工具</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2023-12-25-ChatGPT Token计算器网页版</guid>
+    <title>ChatGPT Token计算器网页版</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2023-12-25-ChatGPT Token计算器网页版</link>
+    <description>ChatGPT Token计算器网页版</description>
+    <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>实用工具</category>
+  </item>
+
+    </channel>
+  </rss>

@@ -1,0 +1,134 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>akamiiya的程序员之路</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>读书笔记/踩坑/进步</description>
+      <language>zh-cn</language>
+      <managingEditor>tiers@qq.com (laizeh)</managingEditor>
+      <webMaster>tiers@qq.com (laizeh)</webMaster>
+      <lastBuildDate>Sun, 13 Jan 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/bug排查/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-fegin传输字符串时处理空格的坑</guid>
+    <title>fegin传输字符串时处理空格的坑</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-01-13-fegin传输字符串时处理空格的坑</link>
+    undefined
+    <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring cloud</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-12-ArrayList.add()报UnsupportedOperationException</guid>
+    <title>ArrayList.add()报UnsupportedOperationException</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2019-09-12-ArrayList.add()报UnsupportedOperationException</link>
+    undefined
+    <pubDate>Thu, 12 Sep 2019 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-docker 可以无视系统防火墙暴露端口的问题</guid>
+    <title>docker 可以无视系统防火墙暴露端口的问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-09-docker 可以无视系统防火墙暴露端口的问题</link>
+    undefined
+    <pubDate>Thu, 09 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>docker</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-10-记一次由于网关重试导致的生产事故</guid>
+    <title>记一次由于网关重试导致的生产事故</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-01-10-记一次由于网关重试导致的生产事故</link>
+    undefined
+    <pubDate>Fri, 10 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>spring</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-17-找到jvm中占用cpu最高的线程</guid>
+    <title>找到jvm中占用cpu最高的线程</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-02-17-找到jvm中占用cpu最高的线程</link>
+    undefined
+    <pubDate>Mon, 17 Feb 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>技术</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-20-排查线上redis连接超时问题</guid>
+    <title>排查线上redis连接超时问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2020-03-20-排查线上redis连接超时问题</link>
+    undefined
+    <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>database</category><category>redis</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-mysql大表查询优化</guid>
+    <title>mysql大表查询优化</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-02-19-mysql大表查询优化</link>
+    undefined
+    <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>技术</category><category>mysql</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</guid>
+    <title>redis异常:ERR bad lua script for redis cluster</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-05-30-redis异常:ERR bad lua script for redis cluster</link>
+    undefined
+    <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>速查</category><category>redis</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-01-interface xx is not visible from ClassLoader</guid>
+    <title>interface xx is not visible from ClassLoader</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-01-interface xx is not visible from ClassLoader</link>
+    undefined
+    <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-27-GuavaCache强引用导致out of memory error</guid>
+    <title>GuavaCache强引用导致的内存泄漏问题</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-06-27-GuavaCache强引用导致out of memory error</link>
+    <description>看了网上的例子就直接抄过来用的人总是能写出一些奇奇怪怪的bug.</description>
+    <pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>java</category><category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-26-k8s伸缩导致kafka rebalance</guid>
+    <title>k8s伸缩导致kafka rebalance</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-07-26-k8s伸缩导致kafka rebalance</link>
+    <description>生产环境的某个kafka消费者集群在业务高峰期大概率性能出现断崖式下跌,每次持续大概1分钟以后恢复正常.将部分生产流量导入灰度环境,尝试重现问题,然而失败.看了很久代码,也没找到问题.最后经过运维提醒才发现原来每次业务高峰期都会触发k8s伸缩. 导致kafka rebalance,降低消息的消费速度.</description>
+    <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>bug排查</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-08-15-热key导致的redis拒绝连接问题排查</guid>
+    <title>热key导致的redis拒绝连接问题排查</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/2021-08-15-热key导致的redis拒绝连接问题排查</link>
+    <description>排查解决由于redis访问倾斜导致拒绝连接的问题</description>
+    <pubDate>Sun, 15 Aug 2021 00:00:00 GMT</pubDate>
+    <author>tiers@qq.com (laizeh)</author>
+    <category>bug排查</category>
+  </item>
+
+    </channel>
+  </rss>
